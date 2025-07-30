@@ -1,0 +1,322 @@
+# VFsync Full Terminal Command Log
+
+1. date
+2. bc
+3. sudo apt update
+4. sudo apt upgrade
+5. clear
+6. echo \$SHELL
+7. printenv SHELL
+8. whoami
+9. whatis echo
+10. whatis printenv
+11. whatis whoami
+12. whatis cat
+13. whereis cat
+14. whereis gcc
+15. info cat
+16. sudo apt install gcc
+17. clear
+18. sudo apt install build-essential
+19. date
+20. date "+%D"
+21. date "+%D %T"
+22. date "+%Y-%m-%d"
+23. date "+%Y/%m/%d"
+24. date "+%A %B %d %Y %T"
+25. date --date "tomorrow"
+26. date --date "2 years ago"
+27. man date
+28. clear
+29. cal
+30. sudo apt install ncal
+31. cal
+32. cal 7 2025
+33. cal 5 2025
+34. cal 2025
+35. cal -3 2025
+36. cal -3
+37. clear
+38. ps
+39. exit
+40. bc
+41. bc <<< "12/5"
+42. bc <<< "scale=2; 12/5"
+43. bc <<< "2>5"
+44. bc <<< "2^10"
+45. uname
+46. uname -o
+47. uname -i
+48. uname -n
+49. uname -v
+50. uname -s
+51. uname -m
+52. uname -r
+53. uname -a
+54. echo "Welcome to Linux"
+55. echo -e "Hello \t World"
+56. echo -n "Hello World"
+57. echo "Welcome to "Linux""
+58. echo `date`
+59. echo "This is"
+60. Linux
+61. Training
+62. for
+63. Notchup
+64. July 2025"
+65. echo "This is Linux Training for Notchup July 2025"
+66. printf "Linux training"
+67. printf "Linux training\n"
+68. printf "My shell is %s\n" \$SHELL
+69. seq 1 10
+70. seq 1 3 10
+71. seq 10 -1 1
+72. seq 20 -2 0
+73. seq -s " " 10
+74. seq -s " " 5 10
+75. seq -s 5 10
+76. seq -s " " 5 3 50
+77. rev <<< Linux
+78. history
+79. seq 1 10
+80. date --date "2 years ago"
+81. sudo apt install ncal
+82. echo \$?
+83. false
+84. echo \$?
+85. ls
+86. nano newfile
+87. cd new
+88. ls
+89. mkdir new
+90. cd new
+91. mkdir new1 new2
+92. ls
+93. cd
+94. cd -
+95. mkdir -p d1/d2
+96. ls
+97. cd d1
+98. ls
+99. ls -l
+100. cd ..
+101. cd
+102. ls -l
+103. ls -a
+104. ls -R
+105. nano demo
+106. wc demo
+107. touch newfile.txt
+108. nano newfile.txt
+109. cat newfile.txt
+110. cat newfile.txt > output.txt
+111. cat output.txt
+112. cat -n demo
+113. ls
+114. mkdir training
+115. cp newfile output.txt training
+116. cd training
+117. ls
+118. cd
+119. ls
+120. ls -R
+121. cp -r new training
+122. ls
+123. cd training
+124. ls
+125. cd new
+126. ls
+127. cd
+128. mv output.txt out
+129. ls
+130. mv out training
+131. ls
+132. cd training
+133. ls
+134. vi sum.c
+135. gcc sum.c && ./a.out
+136. sudo apt install update
+137. sudo apt install gcc
+138. gcc ifelse.c
+139. cd notchupfy26
+140. cd notchupJul25
+141. gcc ifelse.c
+142. gcc 1darray.c
+143. cd ..
+144. gcc 1darray.c
+145. ./a.out
+146. sudo apt install update
+147. sudo apt update
+148. sudo apt upgrade
+149. sudo apt install build-essential
+150. exit
+151. echo \$SHELL
+152. whoami
+153. whatis cat
+154. whatis gcc
+155. which cat
+156. which gcc
+157. info cat
+158. sudo apt update
+159. sudo apt upgrade
+160. sudp apt install build-essential
+161. sudo apt install build-essential
+162. sudo apt install gcc
+163. sudo apt install g++
+164. date; uname -r; whoami
+165. date; unam -r; whoami
+166. date && whoami
+167. dat && whoami
+168. date
+169. date "+%D"
+170. date "+%D %T"
+171. date "%Y - %m - %d"
+172. date "+%Y - %m - %d"
+173. date "+%Y/%m/%d"
+174. date "+%d/%m/%Y"
+175. date "+%A %B %d %y %T"
+176. date "+%A %B %d %Y %T"
+177. info date
+178. date --date "tomorrow"
+179. date --date "2 years ago"
+180. cal
+181. cal 10 2025
+182. cal 2025
+183. cal -3
+184. cal -5
+185. bc
+186. echo "12/5" | bc
+187. echo "scale=2; 12/5" | bc
+188. echo "2>3" | bc
+189. echo "2^10" | bc
+190. which cat
+191. which gcc
+192. uname -n
+193. uname -v
+194. uname -s
+195. uname -m
+196. uname -r
+197. uname -a
+198. echo "Welcome to Linux Training"
+199. echo -e "Hello \t World"
+200. echo -n "Hello world"
+201. echo "Welcome to "Linux Training""
+202. echo "date"
+203. echo date
+204. echo `date`
+205. echo "welcome to
+206. Linux
+207. Training"
+208. echo "Welcome to
+209. "Linux"
+210. Training"
+211. seq 1 10
+212. seq 1 3 10
+213. seq 10 -1 1
+214. seq 20 -2 1
+215. seq -s " " 10
+216. seq -s " " 5 10
+217. seq -s " " 5 3 15
+218. echo "linux training" | rev
+219. echo "linux" | rev
+220. history
+221. history 10
+222. seq 1 3 10
+223. date --date "2 years ago"
+224. echo \$?
+225. unam -r
+226. echo \$?
+227. date
+228. echo \$?
+229. man cat
+230. nano test
+231. ls
+232. cd training
+233. ls
+234. cd new
+235. cd ..
+236. cd new
+237. cd
+238. cd -
+239. cd
+240. pwd
+241. cd -
+242. pwd
+243. cd
+244. mkdir stepin
+245. cd stepin
+246. mkdir sdlc git linux
+247. ls
+248. cd sdlc
+249. mkdir -p models/agile
+250. ls
+251. cd models
+252. ls
+253. cd
+254. ls
+255. ls -l
+256. ls -a
+257. ls -R
+258. cd stepin
+259. ls -R
+260. cd agile
+261. cd sdlc
+262. cd models
+263. cd agile
+264. nano cicd
+265. wc cicd
+266. wc this is day 2 of the training
+267. wc
+268. wc
+269. wc
+270. touch newfile.txt
+271. ls
+272. nano newfile.txt
+273. cat newfile.txt
+274. cat cicd
+275. cat cicd > new\.txt
+276. cat new\.txt
+277. cat newfile.txt >> new\.txt
+278. cat new\.txt
+279. cat cicd > new\.txt
+280. cat new\.txt
+281. cat -n cicd
+282. tac cicd
+283. cd ..
+284. ls
+285. cd ..
+286. cd
+287. ls
+288. cp demo newfile stepin
+289. ls
+290. cd stepin
+291. ls
+292. cp -r training stepin
+293. cd
+294. cp -r training stepin
+295. cd stepin
+296. ls
+297. cd
+298. ls
+299. cd stepin
+300. ls
+301. mv newfile git
+302. ls
+303. cd git
+304. ls
+305. mv newfile Day2
+306. ls
+307. rm Day2
+308. ls
+309. cd
+310. ls
+311. rm n\*
+312. ls
+313. rmdir new
+314. cd new
+315. ls
+316. cd
+317. rm -r new
+318. ls
+319. history
+
