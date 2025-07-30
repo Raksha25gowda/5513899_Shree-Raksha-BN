@@ -45,5 +45,12 @@
 ![31](Linux/Screenshot%202025-07-30%20120541.png)
 ![32](Linux/Screenshot%202025-07-30%20120551.png)
 ![33](Linux/Screenshot%202025-07-30%20120601.png)
+
+
+## Linux Day 2
+
+This folder contains practice commands from Day 2 of the Linux learning series.
+
+[📁 View the folder](./Linux%20Day%202/)
   
 
