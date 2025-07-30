@@ -1,8 +1,11 @@
 
-## Certificates
+## 📜 Certificates
 
-### SDLC Certificate
+### 1. SDLC Certificate
+
 ![SDLC Certificate](SDLC/certificate.png)
 
-### GIT Certificate
-![GIT Certificate](GIT/Simplilearn%20certificate.png)
+### 2. Simplilearn Certificate (PDF)
+
+[View Simplilearn Certificate](GIT/Simplilearn%20certificate.pdf)
+
