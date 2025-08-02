@@ -52,5 +52,18 @@
 This folder contains practice commands from Day 2 of the Linux learning series.
 
 [📁 View the folder](./Linux%20Day%202/)
+
+
+## Sololearn Certificates
+
+### 1. C Intermediate Certificate
+
+![C Intermediate](Sololearn%20certificates/c_intermediate.jpg)
+
+### 2. Introduction to C Certificate
+
+![Introduction to C](Sololearn%20certificates/introduction_to_c.jpg)
+
+
   
 
