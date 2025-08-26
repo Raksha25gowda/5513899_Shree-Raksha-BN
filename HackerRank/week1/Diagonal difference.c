@@ -16,40 +16,43 @@ char** split_string(char*);
 
 int parse_int(char*);
 
-void plusMinus(int arr_count, int* arr) {
-    int positive = 0, negative = 0, zero = 0;
+int diagonalDifference(int arr_rows, int arr_columns, int** arr) {
+    int primary_sum = 0;
+    int secondary_sum = 0;
 
-    for (int i = 0; i < arr_count; i++) {
-        if (arr[i] > 0) {
-            positive++;
-        } else if (arr[i] < 0) {
-            negative++;
-        } else {
-            zero++;
-        }
+    for (int i = 0; i < arr_rows; i++) {
+        primary_sum += arr[i][i];
+        secondary_sum += arr[i][arr_columns - 1 - i];
     }
 
-    printf("%.6f\n", (float)positive / arr_count);
-    printf("%.6f\n", (float)negative / arr_count);
-    printf("%.6f\n", (float)zero / arr_count);
+    return abs(primary_sum - secondary_sum);
 }
-
 
 int main()
 {
+    FILE* fptr = fopen(getenv("OUTPUT_PATH"), "w");
+
     int n = parse_int(ltrim(rtrim(readline())));
 
-    char** arr_temp = split_string(rtrim(readline()));
-
-    int* arr = malloc(n * sizeof(int));
+    int** arr = malloc(n * sizeof(int*));
 
     for (int i = 0; i < n; i++) {
-        int arr_item = parse_int(*(arr_temp + i));
+        *(arr + i) = malloc(n * (sizeof(int)));
 
-        *(arr + i) = arr_item;
+        char** arr_item_temp = split_string(rtrim(readline()));
+
+        for (int j = 0; j < n; j++) {
+            int arr_item = parse_int(*(arr_item_temp + j));
+
+            *(*(arr + i) + j) = arr_item;
+        }
     }
 
-    plusMinus(n, arr);
+    int result = diagonalDifference(n, n, arr);
+
+    fprintf(fptr, "%d\n", result);
+
+    fclose(fptr);
 
     return 0;
 }
